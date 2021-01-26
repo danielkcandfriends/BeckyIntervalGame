@@ -170,7 +170,7 @@ window.onload = function () {
                 cardContainer.appendChild(cardImage);
             }
             if (slider.value == '5') {
-                cardContainer.style.background = '#ABC54A';
+                cardContainer.style.background = '#FFFFFF';
                 var number = Math.floor(Math.random()*expertCards.length);
                 cardImage.src = expertCards[number];
                 cardImage.classList.addClass = 'active';

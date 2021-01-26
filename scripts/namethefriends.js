@@ -135,35 +135,35 @@ window.onload = function () {
         cardContainer.onclick = function () {
             message.style.display = 'none';
             if (slider.value == '0') {
-                cardContainer.style.background = '#F36024';
+                cardContainer.style.background = '#FFFFFF';
                 var number = Math.floor(Math.random()*easyCards.length);
                 cardImage.src = easyCards[number];
                 cardImage.classList.addClass = 'active';
                 cardContainer.appendChild(cardImage);
             }
             if (slider.value == '1') {
-                cardContainer.style.background = '#42BFAE';
+                cardContainer.style.background = '#FFFFFF';
                 var number = Math.floor(Math.random()*mediumCards.length);
                 cardImage.src = mediumCards[number];
                 cardImage.classList.addClass = 'active';
                 cardContainer.appendChild(cardImage);
             }
             if (slider.value == '2') {
-                cardContainer.style.background = '#42BFAE';
+                cardContainer.style.background = '#FFFFFF';
                 var number = Math.floor(Math.random()*easyMediumCards.length);
                 cardImage.src = easyMediumCards[number];
                 cardImage.classList.addClass = 'active';
                 cardContainer.appendChild(cardImage);
             }
             if (slider.value == '3') {
-                cardContainer.style.background = '#2861AC';
+                cardContainer.style.background = '#FFFFFF';
                 var number = Math.floor(Math.random()*hardCards.length);
                 cardImage.src = hardCards[number];
                 cardImage.classList.addClass = 'active';
                 cardContainer.appendChild(cardImage);
             }
             if (slider.value == '4') {
-                cardContainer.style.background = '#2861AC';
+                cardContainer.style.background = '#FFFFFF';
                 var number = Math.floor(Math.random()*easyMediumHard.length);
                 cardImage.src = easyMediumHard[number];
                 cardImage.classList.addClass = 'active';
